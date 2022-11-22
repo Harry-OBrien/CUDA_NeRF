@@ -124,6 +124,7 @@ if (IVN_BUILD_WITH_GUI)
 		dependencies/imgui/imgui_draw.cpp
 		dependencies/imgui/imgui_tables.cpp
 		dependencies/imgui/imgui_widgets.cpp
+		dependencies/stbi/stbi_wrapper.cpp
 	)
 
 	list(APPEND IVN_DEFINITIONS -DIVN_GUI)
